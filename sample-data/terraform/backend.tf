@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "<TERRAFORM_BUCKET>"
-    prefix = "<TERRAFORM_ENV>"
+    bucket = "aef-pso-hackathon-ramesh-tfe"
+    prefix = "sample-data/environments/dev"
   }
 }
